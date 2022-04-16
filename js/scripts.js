@@ -29,7 +29,7 @@ function newItem(){
          crossOutButton.on('click', deleteListItem);
          
        function deleteListItem(){
-             li.classList.add('delete')
+             li.classList('delete')
          }
      // 4. Reordering the items: 
        $('#list').sortable();
